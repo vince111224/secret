@@ -77,8 +77,12 @@ function displayCatHeart() {
         // --- NEW CODE STARTS HERE ---
         // Create the text message element
         var message = document.createElement('div');
-        message.innerText = "YYAAYYYY I knew you would say yes, You didn't get the big yes button by pressing no right? ...";
-        
+        message.innerText =
+"YYAAYYYY 🎉💖\n\n" +
+"I knew you would say yes 😌\n\n" +
+"You didn’t get the big YES button by pressing no, right? 😏\n\n" +
+"I was wondering if, by chance, you might be free on February 14 at 5:00 PM,\n" +
+"so that I may have the honor of taking you on a date at Ravizza 💐";
         // Add some basic styling to make the text look nice
         message.style.fontSize = "24px";
         message.style.fontWeight = "bold";
